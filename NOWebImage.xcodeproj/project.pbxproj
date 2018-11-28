@@ -6,14 +6,44 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		CF29F6B621AE294600208351 /* G */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CF29F6B721AE294600208351 /* Build configuration list for PBXAggregateTarget "G" */;
+			buildPhases = (
+				CF29F6BA21AE296E00208351 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = G;
+			productName = G;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		CF29F69F21AE270400208351 /* NOWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = CF29F69D21AE270400208351 /* NOWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF29F6AE21AE271900208351 /* Downloader.m in Sources */ = {isa = PBXBuildFile; fileRef = CF29F6A621AE271900208351 /* Downloader.m */; };
+		CF29F6AF21AE271900208351 /* Manager.h in Headers */ = {isa = PBXBuildFile; fileRef = CF29F6A721AE271900208351 /* Manager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF29F6B021AE271900208351 /* UIImageView+Cache.m in Sources */ = {isa = PBXBuildFile; fileRef = CF29F6A821AE271900208351 /* UIImageView+Cache.m */; };
+		CF29F6B121AE271900208351 /* Cacher.m in Sources */ = {isa = PBXBuildFile; fileRef = CF29F6A921AE271900208351 /* Cacher.m */; };
+		CF29F6B221AE271900208351 /* Downloader.h in Headers */ = {isa = PBXBuildFile; fileRef = CF29F6AA21AE271900208351 /* Downloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF29F6B321AE271900208351 /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = CF29F6AB21AE271900208351 /* Manager.m */; };
+		CF29F6B421AE271900208351 /* Cacher.h in Headers */ = {isa = PBXBuildFile; fileRef = CF29F6AC21AE271900208351 /* Cacher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF29F6B521AE271900208351 /* UIImageView+Cache.h in Headers */ = {isa = PBXBuildFile; fileRef = CF29F6AD21AE271900208351 /* UIImageView+Cache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CF29F69A21AE270400208351 /* NOWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NOWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF29F69D21AE270400208351 /* NOWebImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NOWebImage.h; sourceTree = "<group>"; };
 		CF29F69E21AE270400208351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF29F6A621AE271900208351 /* Downloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Downloader.m; sourceTree = "<group>"; };
+		CF29F6A721AE271900208351 /* Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		CF29F6A821AE271900208351 /* UIImageView+Cache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Cache.m"; sourceTree = "<group>"; };
+		CF29F6A921AE271900208351 /* Cacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cacher.m; sourceTree = "<group>"; };
+		CF29F6AA21AE271900208351 /* Downloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Downloader.h; sourceTree = "<group>"; };
+		CF29F6AB21AE271900208351 /* Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
+		CF29F6AC21AE271900208351 /* Cacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cacher.h; sourceTree = "<group>"; };
+		CF29F6AD21AE271900208351 /* UIImageView+Cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Cache.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +76,26 @@
 		CF29F69C21AE270400208351 /* NOWebImage */ = {
 			isa = PBXGroup;
 			children = (
+				CF29F6A521AE271900208351 /* IM */,
 				CF29F69D21AE270400208351 /* NOWebImage.h */,
 				CF29F69E21AE270400208351 /* Info.plist */,
 			);
 			path = NOWebImage;
+			sourceTree = "<group>";
+		};
+		CF29F6A521AE271900208351 /* IM */ = {
+			isa = PBXGroup;
+			children = (
+				CF29F6A621AE271900208351 /* Downloader.m */,
+				CF29F6A721AE271900208351 /* Manager.h */,
+				CF29F6A821AE271900208351 /* UIImageView+Cache.m */,
+				CF29F6A921AE271900208351 /* Cacher.m */,
+				CF29F6AA21AE271900208351 /* Downloader.h */,
+				CF29F6AB21AE271900208351 /* Manager.m */,
+				CF29F6AC21AE271900208351 /* Cacher.h */,
+				CF29F6AD21AE271900208351 /* UIImageView+Cache.h */,
+			);
+			path = IM;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,6 +105,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF29F6B521AE271900208351 /* UIImageView+Cache.h in Headers */,
+				CF29F6AF21AE271900208351 /* Manager.h in Headers */,
+				CF29F6B421AE271900208351 /* Cacher.h in Headers */,
+				CF29F6B221AE271900208351 /* Downloader.h in Headers */,
 				CF29F69F21AE270400208351 /* NOWebImage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,6 +146,9 @@
 					CF29F69921AE270400208351 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					CF29F6B621AE294600208351 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 				};
 			};
 			buildConfigurationList = CF29F69421AE270400208351 /* Build configuration list for PBXProject "NOWebImage" */;
@@ -111,6 +164,7 @@
 			projectRoot = "";
 			targets = (
 				CF29F69921AE270400208351 /* NOWebImage */,
+				CF29F6B621AE294600208351 /* G */,
 			);
 		};
 /* End PBXProject section */
@@ -125,11 +179,35 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CF29F6BA21AE296E00208351 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n#要build的target名\nTARGET_NAME=${PROJECT_NAME}\nif [[ $1 ]]\nthen\nTARGET_NAME=$1\nfi\nUNIVERSAL_OUTPUT_FOLDER=\"${SRCROOT}/${PROJECT_NAME}/\"\n#\n#创建输出目录，并删除之前的framework文件\nmkdir -p \"${UNIVERSAL_OUTPUT_FOLDER}\"\nrm -rf \"${UNIVERSAL_OUTPUT_FOLDER}/${TARGET_NAME}.framework\"\n#\n#分别编译模拟器和真机的Framework\nxcodebuild -target \"${TARGET_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"${TARGET_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphonesimulator BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n#\n#拷贝framework到univer目录\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${TARGET_NAME}.framework\" \"${UNIVERSAL_OUTPUT_FOLDER}\"\n#\n#合并framework，输出最终的framework到build目录\nlipo -create -output \"${UNIVERSAL_OUTPUT_FOLDER}/${TARGET_NAME}.framework/${TARGET_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${TARGET_NAME}.framework/${TARGET_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${TARGET_NAME}.framework/${TARGET_NAME}\"\n#\n#删除编译之后生成的无关的配置文件\ndir_path=\"${UNIVERSAL_OUTPUT_FOLDER}/${TARGET_NAME}.framework/\"\nfor file in ls $dir_path\ndo\nif [[ ${file} =~ \".xcconfig\" ]]\nthen\nrm -f \"${dir_path}/${file}\"\nfi\ndone\n#判断build文件夹是否存在，存在则删除\nif [ -d \"${SRCROOT}/build\" ]\nthen\nrm -rf \"${SRCROOT}/build\"\nfi\nrm -rf \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos\"\n#打开合并后的文件夹\nopen \"${UNIVERSAL_OUTPUT_FOLDER}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CF29F69621AE270400208351 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF29F6AE21AE271900208351 /* Downloader.m in Sources */,
+				CF29F6B121AE271900208351 /* Cacher.m in Sources */,
+				CF29F6B021AE271900208351 /* UIImageView+Cache.m in Sources */,
+				CF29F6B321AE271900208351 /* Manager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +337,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = YJ8A347EXF;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -271,6 +349,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nightowl.NOWebImage;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -283,7 +363,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = YJ8A347EXF;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -295,10 +375,30 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nightowl.NOWebImage;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF29F6B821AE294600208351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YJ8A347EXF;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF29F6B921AE294600208351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YJ8A347EXF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -319,6 +419,15 @@
 			buildConfigurations = (
 				CF29F6A321AE270400208351 /* Debug */,
 				CF29F6A421AE270400208351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF29F6B721AE294600208351 /* Build configuration list for PBXAggregateTarget "G" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF29F6B821AE294600208351 /* Debug */,
+				CF29F6B921AE294600208351 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
